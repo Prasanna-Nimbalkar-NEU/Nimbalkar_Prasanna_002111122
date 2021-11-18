@@ -12,6 +12,7 @@ import java.util.ArrayList;
  * @author harold
  */
 public class DeliveryManDirectory {
+   
     ArrayList<DeliveryMan> deliveryManList = new ArrayList<DeliveryMan>();
 
     public ArrayList<DeliveryMan> getDeliveryManList() {

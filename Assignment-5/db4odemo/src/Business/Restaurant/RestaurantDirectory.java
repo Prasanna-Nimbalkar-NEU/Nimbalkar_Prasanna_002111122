@@ -30,5 +30,4 @@ public class RestaurantDirectory {
     public void removeRestaurant(Restaurant restaurant){
         restaurantList.remove(restaurant);
     }
-    
 }

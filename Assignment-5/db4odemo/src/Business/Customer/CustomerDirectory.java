@@ -27,5 +27,4 @@ public class CustomerDirectory {
     public void removeCustomer(Customer customer){
         customerList.remove(customer);
     }
-    
 }

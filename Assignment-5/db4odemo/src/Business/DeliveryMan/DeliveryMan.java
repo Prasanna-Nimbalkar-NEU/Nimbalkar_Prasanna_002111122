@@ -7,15 +7,15 @@ package Business.DeliveryMan;
 
 import Business.Role.DeliverManRole;
 import Business.UserAccount.UserAccount;
+
 /**
  *
  * @author harold
  */
-public class DeliveryMan {
+public class DeliveryMan extends UserAccount{
     private String name;
     private String phone;
-    
-    public DeliveryMan(String userName, String password, String name,  String phone) {
+ public DeliveryMan(String userName, String password, String name,  String phone) {
         setUsername(userName);
         setPassword(password);
         setRole(new DeliverManRole());
