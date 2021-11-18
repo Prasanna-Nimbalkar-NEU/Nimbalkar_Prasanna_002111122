@@ -62,9 +62,11 @@ public class ManageMenuJPanel extends javax.swing.JPanel {
         btnAddItem = new javax.swing.JButton();
         btnUpdateItem = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(240, 178, 62));
+        setBackground(new java.awt.Color(255, 255, 255));
+        setForeground(new java.awt.Color(255, 102, 0));
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Futura", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 102, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("MANAGE MENU");
 
@@ -93,10 +95,17 @@ public class ManageMenuJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblMenu);
 
+        jLabel2.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 102, 0));
         jLabel2.setText("Item Name");
 
+        jLabel3.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 102, 0));
         jLabel3.setText("Item Price");
 
+        btnAddItem.setBackground(new java.awt.Color(255, 255, 255));
+        btnAddItem.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        btnAddItem.setForeground(new java.awt.Color(255, 102, 0));
         btnAddItem.setText("Add Item");
         btnAddItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -104,6 +113,9 @@ public class ManageMenuJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnUpdateItem.setBackground(new java.awt.Color(255, 255, 255));
+        btnUpdateItem.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        btnUpdateItem.setForeground(new java.awt.Color(255, 102, 0));
         btnUpdateItem.setText("Update");
         btnUpdateItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -145,7 +157,7 @@ public class ManageMenuJPanel extends javax.swing.JPanel {
                 .addGap(41, 41, 41)
                 .addComponent(jLabel1)
                 .addGap(25, 25, 25)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 207, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 204, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)

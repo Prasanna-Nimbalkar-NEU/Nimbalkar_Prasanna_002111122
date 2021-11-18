@@ -139,7 +139,7 @@ public class ManageOrderDetailsJPanel extends javax.swing.JPanel {
         customerFeedbackLabel = new javax.swing.JLabel();
         declineOrder = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(240, 178, 62));
+        setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel4.setText("Restaurant Name");
 
@@ -194,7 +194,7 @@ public class ManageOrderDetailsJPanel extends javax.swing.JPanel {
 
         status.setText("<value>");
 
-        btnBack1.setText("<Back");
+        btnBack1.setText("Back");
         btnBack1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBack1ActionPerformed(evt);
@@ -223,7 +223,7 @@ public class ManageOrderDetailsJPanel extends javax.swing.JPanel {
             }
         });
 
-        customerFeedBackPanel.setBackground(new java.awt.Color(240, 178, 62));
+        customerFeedBackPanel.setBackground(new java.awt.Color(255, 255, 255));
 
         customerFeedbackField.setColumns(20);
         customerFeedbackField.setRows(5);
@@ -355,7 +355,7 @@ public class ManageOrderDetailsJPanel extends javax.swing.JPanel {
                     .addComponent(declineOrder))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(customerFeedBackPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(58, Short.MAX_VALUE))
+                .addContainerGap(31, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

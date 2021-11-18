@@ -45,13 +45,10 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
         systemAdminPanel = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
         manageOrdersButtonPanel = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
         manageOrdersButtonLabel = new javax.swing.JLabel();
         manageMenuButtonPanel = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
         manageMenuButtonLabel = new javax.swing.JLabel();
         manageInfoButtonPanel = new javax.swing.JPanel();
-        jLabel6 = new javax.swing.JLabel();
         manageInfoButtonLabel = new javax.swing.JLabel();
         rightSystemAdminPanel = new javax.swing.JPanel();
 
@@ -63,17 +60,15 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        manageOrdersButtonPanel.setBackground(new java.awt.Color(31, 50, 97));
+        manageOrdersButtonPanel.setBackground(new java.awt.Color(255, 255, 255));
         manageOrdersButtonPanel.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 manageOrdersButtonPanelMousePressed(evt);
             }
         });
 
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/login.png"))); // NOI18N
-
-        manageOrdersButtonLabel.setForeground(new java.awt.Color(240, 178, 62));
+        manageOrdersButtonLabel.setBackground(new java.awt.Color(255, 255, 255));
+        manageOrdersButtonLabel.setForeground(new java.awt.Color(255, 102, 0));
         manageOrdersButtonLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         manageOrdersButtonLabel.setText("Manage Orders");
         manageOrdersButtonLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -86,26 +81,19 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
         manageOrdersButtonPanel.setLayout(manageOrdersButtonPanelLayout);
         manageOrdersButtonPanelLayout.setHorizontalGroup(
             manageOrdersButtonPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(manageOrdersButtonPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(manageOrdersButtonLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 231, Short.MAX_VALUE)
-                .addGap(0, 0, 0))
+            .addComponent(manageOrdersButtonLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 280, Short.MAX_VALUE)
         );
         manageOrdersButtonPanelLayout.setVerticalGroup(
             manageOrdersButtonPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(manageOrdersButtonPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(manageOrdersButtonPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(manageOrdersButtonLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 36, Short.MAX_VALUE))
+                .addComponent(manageOrdersButtonLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 36, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
         jPanel1.add(manageOrdersButtonPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 280, -1));
 
-        manageMenuButtonPanel.setBackground(new java.awt.Color(31, 50, 97));
+        manageMenuButtonPanel.setBackground(new java.awt.Color(255, 255, 255));
         manageMenuButtonPanel.setPreferredSize(new java.awt.Dimension(264, 48));
         manageMenuButtonPanel.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
@@ -113,10 +101,8 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/cooking.png"))); // NOI18N
-
-        manageMenuButtonLabel.setForeground(new java.awt.Color(240, 178, 62));
+        manageMenuButtonLabel.setBackground(new java.awt.Color(255, 255, 255));
+        manageMenuButtonLabel.setForeground(new java.awt.Color(255, 102, 0));
         manageMenuButtonLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         manageMenuButtonLabel.setText("Manage Menu");
         manageMenuButtonLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -129,36 +115,27 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
         manageMenuButtonPanel.setLayout(manageMenuButtonPanelLayout);
         manageMenuButtonPanelLayout.setHorizontalGroup(
             manageMenuButtonPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(manageMenuButtonPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(manageMenuButtonLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 229, Short.MAX_VALUE)
-                .addContainerGap())
+            .addComponent(manageMenuButtonLabel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 280, Short.MAX_VALUE)
         );
         manageMenuButtonPanelLayout.setVerticalGroup(
             manageMenuButtonPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(manageMenuButtonPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(manageMenuButtonPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 38, Short.MAX_VALUE)
-                    .addComponent(manageMenuButtonLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(manageMenuButtonLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 38, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
         jPanel1.add(manageMenuButtonPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 48, 280, 50));
 
-        manageInfoButtonPanel.setBackground(new java.awt.Color(31, 50, 97));
+        manageInfoButtonPanel.setBackground(new java.awt.Color(255, 255, 255));
         manageInfoButtonPanel.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 manageInfoButtonPanelMousePressed(evt);
             }
         });
 
-        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/delivery (3).png"))); // NOI18N
-
-        manageInfoButtonLabel.setForeground(new java.awt.Color(240, 178, 62));
+        manageInfoButtonLabel.setBackground(new java.awt.Color(255, 255, 255));
+        manageInfoButtonLabel.setForeground(new java.awt.Color(255, 102, 0));
         manageInfoButtonLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         manageInfoButtonLabel.setText("Manage Info");
 
@@ -166,20 +143,11 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
         manageInfoButtonPanel.setLayout(manageInfoButtonPanelLayout);
         manageInfoButtonPanelLayout.setHorizontalGroup(
             manageInfoButtonPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(manageInfoButtonPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(manageInfoButtonLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(20, Short.MAX_VALUE))
+            .addComponent(manageInfoButtonLabel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 280, Short.MAX_VALUE)
         );
         manageInfoButtonPanelLayout.setVerticalGroup(
             manageInfoButtonPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(manageInfoButtonPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, 38, Short.MAX_VALUE)
-                .addContainerGap())
-            .addComponent(manageInfoButtonLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(manageInfoButtonLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
         );
 
         jPanel1.add(manageInfoButtonPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 98, 280, 50));
@@ -262,9 +230,6 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel manageInfoButtonLabel;
     private javax.swing.JPanel manageInfoButtonPanel;

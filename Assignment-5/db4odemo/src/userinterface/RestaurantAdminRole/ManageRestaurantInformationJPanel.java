@@ -71,14 +71,21 @@ public class ManageRestaurantInformationJPanel extends javax.swing.JPanel {
         confirmButton = new javax.swing.JButton();
         resetButton = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(240, 178, 62));
+        setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
+        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Futura", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 102, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("MANAGE RESTAURANT INFORMATION");
 
+        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 102, 0));
         jLabel2.setText("Restaurant name");
 
+        updateButton.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        updateButton.setForeground(new java.awt.Color(255, 102, 0));
         updateButton.setText("Update");
         updateButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,8 +93,14 @@ public class ManageRestaurantInformationJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel3.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 102, 0));
         jLabel3.setText("Restaurant Address");
 
+        jLabel4.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 102, 0));
         jLabel4.setText("Restaurant Phone");
 
         restaurantPhone.addActionListener(new java.awt.event.ActionListener() {
@@ -96,6 +109,8 @@ public class ManageRestaurantInformationJPanel extends javax.swing.JPanel {
             }
         });
 
+        confirmButton.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        confirmButton.setForeground(new java.awt.Color(255, 102, 0));
         confirmButton.setText("Confirm");
         confirmButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -103,6 +118,8 @@ public class ManageRestaurantInformationJPanel extends javax.swing.JPanel {
             }
         });
 
+        resetButton.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        resetButton.setForeground(new java.awt.Color(255, 102, 0));
         resetButton.setText("Reset");
         resetButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -160,7 +177,7 @@ public class ManageRestaurantInformationJPanel extends javax.swing.JPanel {
                     .addComponent(updateButton)
                     .addComponent(confirmButton)
                     .addComponent(resetButton))
-                .addContainerGap(256, Short.MAX_VALUE))
+                .addContainerGap(253, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
