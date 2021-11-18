@@ -252,12 +252,8 @@ public class ManageRestaurantJPanel extends javax.swing.JPanel {
 
     private void btnModifyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnModifyActionPerformed
         // TODO add your handling code here:
-//        System.out.println("Shivi Update");
-
         int selectedRow = tblRestaurantAdmin.getSelectedRow();
         if (selectedRow >= 0) {
-//            System.out.println("xyz" + selectedRow);
-//            System.out.println("Shivi 2");
             Restaurant restaurant = (Restaurant) tblRestaurantAdmin.getValueAt(selectedRow, 0);
             System.out.println("item : " + restaurant);
             restaurant.setUsername(createUserName.getText());
@@ -326,7 +322,6 @@ public class ManageRestaurantJPanel extends javax.swing.JPanel {
     }
 
     private void display(Restaurant restaurant) {
-//        System.out.println("Shivi display");
         createUserName.setText(restaurant.getUsername());
         createPassword.setText(restaurant.getPassword());
         createRestaurantName.setText(restaurant.getName());

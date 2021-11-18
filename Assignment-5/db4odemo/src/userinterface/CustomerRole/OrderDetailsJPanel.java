@@ -98,12 +98,18 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         customerFeedbackField = new javax.swing.JTextArea();
 
-        setBackground(new java.awt.Color(240, 178, 62));
+        setBackground(new java.awt.Color(255, 255, 255));
 
+        jLabel1.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 102, 0));
         jLabel1.setText("Restaurant Name");
 
+        jLabel2.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 102, 0));
         jLabel2.setText("Delivery Man Name");
 
+        jLabel3.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 102, 0));
         jLabel3.setText("Request Date");
 
         restaurantName.setText("<value>");
@@ -137,18 +143,26 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
         });
         cartScrollPane.setViewportView(tblCart);
 
+        jLabel7.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 102, 0));
         jLabel7.setText("Total");
 
+        jLabel8.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 102, 0));
         jLabel8.setText("Message");
 
         totalPrice.setText("<value>");
 
         message.setText("<value>");
 
-        jLabel11.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Futura", 1, 18)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 102, 0));
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel11.setText("ORDER DETAILS");
 
+        submitFeedbackButton.setBackground(new java.awt.Color(255, 255, 255));
+        submitFeedbackButton.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        submitFeedbackButton.setForeground(new java.awt.Color(255, 102, 0));
         submitFeedbackButton.setText("Submit Feedback");
         submitFeedbackButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -156,19 +170,27 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel13.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 102, 0));
         jLabel13.setText("Status");
 
         status.setText("<value>");
 
-        btnBack.setText("<Back");
+        btnBack.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(255, 102, 0));
+        btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBackActionPerformed(evt);
             }
         });
 
-        customerFeedBackPanel.setBackground(new java.awt.Color(240, 178, 62));
+        customerFeedBackPanel.setBackground(new java.awt.Color(255, 255, 255));
+        customerFeedBackPanel.setForeground(new java.awt.Color(255, 102, 0));
 
+        customerFeedbackLabel.setBackground(new java.awt.Color(255, 255, 255));
+        customerFeedbackLabel.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        customerFeedbackLabel.setForeground(new java.awt.Color(255, 102, 0));
         customerFeedbackLabel.setText("Customer FeedBack");
 
         customerFeedbackField.setColumns(20);
@@ -236,7 +258,7 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 660, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(customerFeedBackPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 745, Short.MAX_VALUE))))
+                        .addGap(0, 760, Short.MAX_VALUE))))
             .addGroup(layout.createSequentialGroup()
                 .addGap(317, 317, 317)
                 .addComponent(submitFeedbackButton)
@@ -277,7 +299,7 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
                 .addComponent(customerFeedBackPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(submitFeedbackButton)
-                .addContainerGap(21, Short.MAX_VALUE))
+                .addContainerGap(11, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

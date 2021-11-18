@@ -90,10 +90,15 @@ public class ProcessOrderJPanel extends javax.swing.JPanel {
         jScrollPane2 = new javax.swing.JScrollPane();
         restaurantAddressValue = new javax.swing.JTextArea();
 
-        setBackground(new java.awt.Color(240, 178, 62));
+        setBackground(new java.awt.Color(255, 255, 255));
 
+        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 102, 0));
         jLabel1.setText("Restaurant Name");
 
+        backJButton.setBackground(new java.awt.Color(255, 255, 255));
+        backJButton.setForeground(new java.awt.Color(255, 102, 0));
         backJButton.setText("Back");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -101,20 +106,33 @@ public class ProcessOrderJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 102, 0));
         jLabel2.setText("Restaurant Address");
 
+        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel3.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 102, 0));
         jLabel3.setText("Customer Name");
 
+        jLabel4.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 102, 0));
         jLabel4.setText("Customer Address");
 
         restaurantNameValue.setText("<Value>");
 
         customerNameValue.setText("<Value>");
 
-        jLabel9.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
+        jLabel9.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel9.setFont(new java.awt.Font("Futura", 1, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 102, 0));
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel9.setText("ORDER DETAILS");
 
+        btnStatus.setBackground(new java.awt.Color(255, 255, 255));
+        btnStatus.setForeground(new java.awt.Color(255, 102, 0));
         btnStatus.setText("Pick Order");
         btnStatus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -122,6 +140,9 @@ public class ProcessOrderJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel5.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel5.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 102, 0));
         jLabel5.setText("Status");
 
         status.setText("<Value>");
@@ -198,7 +219,7 @@ public class ProcessOrderJPanel extends javax.swing.JPanel {
                     .addComponent(jLabel5))
                 .addGap(18, 18, 18)
                 .addComponent(btnStatus)
-                .addContainerGap(220, Short.MAX_VALUE))
+                .addContainerGap(213, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

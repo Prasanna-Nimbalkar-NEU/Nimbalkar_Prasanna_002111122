@@ -240,12 +240,10 @@ public class ManageDeliveryManJPanel extends javax.swing.JPanel {
     }//GEN-LAST:event_btnDeliveryManActionPerformed
 
     private void btnModifyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnModifyActionPerformed
-//          System.out.println("Shivi Update");
+
 
         int selectedRow = tblDeliveryMan.getSelectedRow();
         if (selectedRow >= 0) {
-//            System.out.println("xyz" + selectedRow);
-//            System.out.println("Shivi 2");
             DeliveryMan deliveryMan = (DeliveryMan) tblDeliveryMan.getValueAt(selectedRow, 0);
             System.out.println("item : " + deliveryMan);
             deliveryMan.setUsername(createUserName.getText());
@@ -313,7 +311,6 @@ public class ManageDeliveryManJPanel extends javax.swing.JPanel {
     }
 
     private void display(DeliveryMan deliveryMan) {
-        System.out.println("Shivi display");
         createUserName.setText(deliveryMan.getUsername());
         createPassword.setText(deliveryMan.getPassword());
         createName.setText(deliveryMan.getName());

@@ -19,7 +19,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author shivi bhatt
+ * @author prasannanimbalkar
  */
 public class ManageOrderDetailsJPanel extends javax.swing.JPanel {
 
@@ -141,10 +141,19 @@ public class ManageOrderDetailsJPanel extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(255, 255, 255));
 
+        jLabel4.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 102, 0));
         jLabel4.setText("Restaurant Name");
 
+        deliveryManLabel.setBackground(new java.awt.Color(255, 255, 255));
+        deliveryManLabel.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        deliveryManLabel.setForeground(new java.awt.Color(255, 102, 0));
         deliveryManLabel.setText("Delivery Man Name");
 
+        jLabel6.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel6.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 102, 0));
         jLabel6.setText("Request Date");
 
         restaurantName.setText("arun");
@@ -178,18 +187,35 @@ public class ManageOrderDetailsJPanel extends javax.swing.JPanel {
         });
         cartScrollPane1.setViewportView(tblOrderDetails);
 
+        jLabel9.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel9.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 102, 0));
         jLabel9.setText("Total");
 
+        jLabel10.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel10.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 102, 0));
         jLabel10.setText("Message");
 
+        totalPrice.setBackground(new java.awt.Color(255, 255, 255));
+        totalPrice.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        totalPrice.setForeground(new java.awt.Color(255, 102, 0));
         totalPrice.setText("<value>");
 
+        message.setBackground(new java.awt.Color(255, 255, 255));
+        message.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        message.setForeground(new java.awt.Color(255, 102, 0));
         message.setText("<value>");
 
-        jLabel12.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
+        jLabel12.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel12.setFont(new java.awt.Font("Futura", 1, 18)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 102, 0));
         jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel12.setText("ORDER DETAILS");
 
+        jLabel14.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel14.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 102, 0));
         jLabel14.setText("Status");
 
         status.setText("<value>");
@@ -201,6 +227,9 @@ public class ManageOrderDetailsJPanel extends javax.swing.JPanel {
             }
         });
 
+        acceptOrder.setBackground(new java.awt.Color(255, 255, 255));
+        acceptOrder.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        acceptOrder.setForeground(new java.awt.Color(255, 102, 0));
         acceptOrder.setText("Accept Order");
         acceptOrder.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -214,8 +243,14 @@ public class ManageOrderDetailsJPanel extends javax.swing.JPanel {
             }
         });
 
+        assignDeliveryPersonLabel.setBackground(new java.awt.Color(255, 255, 255));
+        assignDeliveryPersonLabel.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        assignDeliveryPersonLabel.setForeground(new java.awt.Color(255, 102, 0));
         assignDeliveryPersonLabel.setText("Assign Delivery Person");
 
+        addDeliveryPerson.setBackground(new java.awt.Color(255, 255, 255));
+        addDeliveryPerson.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        addDeliveryPerson.setForeground(new java.awt.Color(255, 102, 0));
         addDeliveryPerson.setText("Add");
         addDeliveryPerson.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -229,6 +264,9 @@ public class ManageOrderDetailsJPanel extends javax.swing.JPanel {
         customerFeedbackField.setRows(5);
         jScrollPane1.setViewportView(customerFeedbackField);
 
+        customerFeedbackLabel.setBackground(new java.awt.Color(255, 255, 255));
+        customerFeedbackLabel.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        customerFeedbackLabel.setForeground(new java.awt.Color(255, 102, 0));
         customerFeedbackLabel.setText("Customer Feedback");
 
         javax.swing.GroupLayout customerFeedBackPanelLayout = new javax.swing.GroupLayout(customerFeedBackPanel);
@@ -254,6 +292,9 @@ public class ManageOrderDetailsJPanel extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        declineOrder.setBackground(new java.awt.Color(255, 255, 255));
+        declineOrder.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
+        declineOrder.setForeground(new java.awt.Color(255, 102, 0));
         declineOrder.setText("Decline Order");
         declineOrder.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
@@ -271,7 +312,7 @@ public class ManageOrderDetailsJPanel extends javax.swing.JPanel {
                         .addGap(16, 16, 16)
                         .addComponent(btnBack1))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(96, 96, 96)
+                        .addGap(110, 110, 110)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -355,7 +396,7 @@ public class ManageOrderDetailsJPanel extends javax.swing.JPanel {
                     .addComponent(declineOrder))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(customerFeedBackPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(31, Short.MAX_VALUE))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
