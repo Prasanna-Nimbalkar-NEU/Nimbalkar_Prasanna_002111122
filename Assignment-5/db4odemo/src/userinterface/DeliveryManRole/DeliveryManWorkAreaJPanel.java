@@ -117,6 +117,7 @@ public class DeliveryManWorkAreaJPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        tblDeliveryManWorkRequest.setSelectionBackground(new java.awt.Color(255, 102, 0));
         jScrollPane2.setViewportView(tblDeliveryManWorkRequest);
         if (tblDeliveryManWorkRequest.getColumnModel().getColumnCount() > 0) {
             tblDeliveryManWorkRequest.getColumnModel().getColumn(0).setResizable(false);

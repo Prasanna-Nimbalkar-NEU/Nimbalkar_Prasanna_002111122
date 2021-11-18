@@ -155,7 +155,7 @@
                       <Color blue="0" green="66" red="ff" type="rgb"/>
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
-                    <Property name="text" type="java.lang.String" value="Manage Menu"/>
+                    <Property name="text" type="java.lang.String" value="Update Manu"/>
                   </Properties>
                   <Events>
                     <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="manageMenuButtonLabelMousePressed"/>
@@ -200,7 +200,7 @@
                       <Color blue="0" green="66" red="ff" type="rgb"/>
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="0"/>
-                    <Property name="text" type="java.lang.String" value="Manage Info"/>
+                    <Property name="text" type="java.lang.String" value="Update Info"/>
                   </Properties>
                 </Component>
               </SubComponents>

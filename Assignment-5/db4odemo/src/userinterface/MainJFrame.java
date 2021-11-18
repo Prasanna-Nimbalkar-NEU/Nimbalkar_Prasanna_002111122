@@ -41,20 +41,20 @@ public class MainJFrame extends javax.swing.JFrame {
 
     private void changePanel(UserAccount userAccount) {
         if (userAccount != null) {
-            String greetings = "Hello";
+            String greetings = "";
             if (userAccount instanceof Customer){
-                    greetings =  greetings + " " + ((Customer)userAccount).getName();
+//                    greetings =  greetings + " " + ((Customer)userAccount).getName();
                     container.add("workArea", userAccount.getRole().createWorkArea(container, (Customer)userAccount, system));
             }else if(userAccount instanceof Restaurant){
-                    greetings =  greetings + " " + ((Restaurant)userAccount).getName();
+//                    greetings =  greetings + " " + ((Restaurant)userAccount).getName();
                     container.add("workArea", userAccount.getRole().createWorkArea(container, (Restaurant)userAccount, system));
             }else if(userAccount instanceof DeliveryMan){
-                    greetings =  greetings + " " + ((DeliveryMan)userAccount).getName();
+//                    greetings =  greetings + " " + ((DeliveryMan)userAccount).getName();
                     container.add("workArea", userAccount.getRole().createWorkArea(container, (DeliveryMan)userAccount, system));
             }else{
                  container.add("workArea", userAccount.getRole().createWorkArea(container, userAccount, system));
             }
-            greetingUserLabel.setText(greetings);
+//            greetingUserLabel.setText(greetings);
             CardLayout layout = (CardLayout) container.getLayout();
             layout.next(container);
         }
@@ -105,8 +105,10 @@ public class MainJFrame extends javax.swing.JFrame {
         });
         leftPanel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1110, 2, 90, 60));
 
-        greetingUserLabel.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
-        leftPanel.add(greetingUserLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 500, 60));
+        greetingUserLabel.setFont(new java.awt.Font("Futura", 1, 18)); // NOI18N
+        greetingUserLabel.setForeground(new java.awt.Color(255, 102, 0));
+        greetingUserLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        leftPanel.add(greetingUserLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 0, 500, 60));
 
         getContentPane().add(leftPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 

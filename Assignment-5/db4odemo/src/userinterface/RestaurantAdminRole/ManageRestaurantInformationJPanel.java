@@ -77,7 +77,7 @@ public class ManageRestaurantInformationJPanel extends javax.swing.JPanel {
         jLabel1.setFont(new java.awt.Font("Futura", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 102, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("MANAGE RESTAURANT INFORMATION");
+        jLabel1.setText("RESTAURANT INFORMATION");
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
         jLabel2.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N

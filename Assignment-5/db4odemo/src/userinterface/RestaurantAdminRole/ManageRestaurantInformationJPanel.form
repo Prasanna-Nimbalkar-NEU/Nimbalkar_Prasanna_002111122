@@ -97,7 +97,7 @@
           <Color blue="0" green="66" red="ff" type="rgb"/>
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="MANAGE RESTAURANT INFORMATION"/>
+        <Property name="text" type="java.lang.String" value="RESTAURANT INFORMATION"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">

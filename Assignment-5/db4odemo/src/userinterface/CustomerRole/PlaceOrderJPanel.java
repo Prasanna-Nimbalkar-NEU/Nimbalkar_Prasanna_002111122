@@ -274,6 +274,7 @@ public class PlaceOrderJPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        tblOrder.setSelectionBackground(new java.awt.Color(255, 102, 0));
         jScrollPane1.setViewportView(tblOrder);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 160, 660, 130));
@@ -314,6 +315,7 @@ public class PlaceOrderJPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        tblCart.setSelectionBackground(new java.awt.Color(255, 102, 0));
         cartScrollPane.setViewportView(tblCart);
 
         add(cartScrollPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 350, 660, 190));

@@ -70,7 +70,7 @@ public class ManageDeliveryManJPanel extends javax.swing.JPanel {
 
             },
             new String [] {
-                "NAME", "PHONE", "USERNAME", "PASSWORD"
+                "NAME", "CONTACT", "USERNAME", "PASSWORD"
             }
         ) {
             Class[] types = new Class [] {

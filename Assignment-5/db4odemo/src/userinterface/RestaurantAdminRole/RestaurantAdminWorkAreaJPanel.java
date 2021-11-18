@@ -104,7 +104,7 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
         manageMenuButtonLabel.setBackground(new java.awt.Color(255, 255, 255));
         manageMenuButtonLabel.setForeground(new java.awt.Color(255, 102, 0));
         manageMenuButtonLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        manageMenuButtonLabel.setText("Manage Menu");
+        manageMenuButtonLabel.setText("Update Manu");
         manageMenuButtonLabel.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 manageMenuButtonLabelMousePressed(evt);
@@ -137,7 +137,7 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
         manageInfoButtonLabel.setBackground(new java.awt.Color(255, 255, 255));
         manageInfoButtonLabel.setForeground(new java.awt.Color(255, 102, 0));
         manageInfoButtonLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        manageInfoButtonLabel.setText("Manage Info");
+        manageInfoButtonLabel.setText("Update Info");
 
         javax.swing.GroupLayout manageInfoButtonPanelLayout = new javax.swing.GroupLayout(manageInfoButtonPanel);
         manageInfoButtonPanel.setLayout(manageInfoButtonPanelLayout);
@@ -179,9 +179,9 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
 
     private void manageOrders() {
         // TODO add your handling code here:
-        manageOrdersButtonPanel.setBackground(new Color(56,90,174));
-        manageMenuButtonPanel.setBackground(new Color(31,50,97));
-        manageInfoButtonPanel.setBackground(new Color(31,50,97));
+//        manageOrdersButtonPanel.setBackground(new Color(56,90,174));
+//        manageMenuButtonPanel.setBackground(new Color(31,50,97));
+//        manageInfoButtonPanel.setBackground(new Color(31,50,97));
         ManageOrderJPanel manageOrderJPanel = new ManageOrderJPanel(rightSystemAdminPanel,ecosystem,userAccount);
         rightSystemAdminPanel.add("ManageOrderJPanel",manageOrderJPanel);
         CardLayout layout = (CardLayout) rightSystemAdminPanel.getLayout();
@@ -199,9 +199,9 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
 
     private void manageMenu() {
         // TODO add your handling code here:
-        manageMenuButtonPanel.setBackground(new Color(56,90,174));
-        manageOrdersButtonPanel.setBackground(new Color(31,50,97));
-        manageInfoButtonPanel.setBackground(new Color(31,50,97));
+//        manageMenuButtonPanel.setBackground(new Color(56,90,174));
+//        manageOrdersButtonPanel.setBackground(new Color(31,50,97));
+//        manageInfoButtonPanel.setBackground(new Color(31,50,97));
         ManageMenuJPanel manageMenuJPanel = new ManageMenuJPanel(rightSystemAdminPanel,userAccount,ecosystem);
         rightSystemAdminPanel.add("ManageMenuJPanel",manageMenuJPanel);
         CardLayout layout = (CardLayout) rightSystemAdminPanel.getLayout();
@@ -219,9 +219,9 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
 
     private void manageInfo() {
         // TODO add your handling code here:
-        manageInfoButtonPanel.setBackground(new Color(56,90,174));
-        manageOrdersButtonPanel.setBackground(new Color(31,50,97));
-        manageMenuButtonPanel.setBackground(new Color(31,50,97));
+//        manageInfoButtonPanel.setBackground(new Color(56,90,174));
+//        manageOrdersButtonPanel.setBackground(new Color(31,50,97));
+//        manageMenuButtonPanel.setBackground(new Color(31,50,97));
         ManageRestaurantInformationJPanel manageRestaurantInformationJPanel = new ManageRestaurantInformationJPanel(rightSystemAdminPanel,ecosystem, userAccount);
         rightSystemAdminPanel.add("ManageRestaurantInformationJPanel",manageRestaurantInformationJPanel);
         CardLayout layout = (CardLayout) rightSystemAdminPanel.getLayout();

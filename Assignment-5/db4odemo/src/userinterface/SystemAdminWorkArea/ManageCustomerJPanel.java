@@ -76,7 +76,7 @@ public class ManageCustomerJPanel extends javax.swing.JPanel {
 
             },
             new String [] {
-                "Name", "Address", "Phone", "Username", "Password"
+                "Name", "Address", "Contact", "Username", "Password"
             }
         ) {
             Class[] types = new Class [] {

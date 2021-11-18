@@ -123,6 +123,7 @@ public class OrderStatusJPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        tblCustomerOrderStatus.setSelectionBackground(new java.awt.Color(255, 102, 0));
         jScrollPane1.setViewportView(tblCustomerOrderStatus);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, 790, 350));

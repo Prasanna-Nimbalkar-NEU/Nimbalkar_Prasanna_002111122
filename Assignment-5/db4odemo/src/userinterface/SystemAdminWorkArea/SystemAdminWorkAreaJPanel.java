@@ -74,7 +74,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         manageCustomers.setForeground(new java.awt.Color(255, 102, 0));
         manageCustomers.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        manageCustomers.setText("Manage Customers");
+        manageCustomers.setText("Customers Dashboard");
         manageCustomers.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 manageCustomersMousePressed(evt);
@@ -107,7 +107,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jLabel5.setForeground(new java.awt.Color(255, 102, 0));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setText("Manage Restaurants");
+        jLabel5.setText("Restaurant Dashboard");
         jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jLabel5MousePressed(evt);
@@ -119,14 +119,14 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         manageRestaurantsLayout.setHorizontalGroup(
             manageRestaurantsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, manageRestaurantsLayout.createSequentialGroup()
-                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 258, Short.MAX_VALUE)
+                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 274, Short.MAX_VALUE)
                 .addContainerGap())
         );
         manageRestaurantsLayout.setVerticalGroup(
             manageRestaurantsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(manageRestaurantsLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 36, Short.MAX_VALUE)
+                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 38, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -141,7 +141,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jLabel7.setForeground(new java.awt.Color(255, 102, 0));
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel7.setText("Manage Delivery Man");
+        jLabel7.setText("Delivery Representative Dashboard");
 
         javax.swing.GroupLayout manageDeliveryManLayout = new javax.swing.GroupLayout(manageDeliveryMan);
         manageDeliveryMan.setLayout(manageDeliveryManLayout);

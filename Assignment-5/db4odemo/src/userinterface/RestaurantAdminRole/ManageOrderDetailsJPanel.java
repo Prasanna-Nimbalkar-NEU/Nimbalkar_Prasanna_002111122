@@ -185,6 +185,7 @@ public class ManageOrderDetailsJPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        tblOrderDetails.setSelectionBackground(new java.awt.Color(255, 102, 0));
         cartScrollPane1.setViewportView(tblOrderDetails);
 
         jLabel9.setBackground(new java.awt.Color(255, 255, 255));

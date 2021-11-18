@@ -155,8 +155,8 @@ public class CustomerWorkAreaJPanel extends javax.swing.JPanel {
 
     private void placeOrder() {
         // TODO add your handling code here:
-        placeOrderButtonPanel.setBackground(new Color(56, 90, 174));
-        orderStatusButtonPanel.setBackground(new Color(31, 50, 97));
+//        placeOrderButtonPanel.setBackground(new Color(56, 90, 174));
+//        orderStatusButtonPanel.setBackground(new Color(31, 50, 97));
 
         PlaceOrderJPanel placeOrderJPanel = new PlaceOrderJPanel(rightSystemAdminPanel, userAccount, ecosystem);
         rightSystemAdminPanel.add("PlaceOrderJPanel", placeOrderJPanel);
@@ -175,8 +175,8 @@ public class CustomerWorkAreaJPanel extends javax.swing.JPanel {
 
     private void orderStatus() {
         // TODO add your handling code here:
-        orderStatusButtonPanel.setBackground(new Color(56, 90, 174));
-        placeOrderButtonPanel.setBackground(new Color(31, 50, 97));
+//        orderStatusButtonPanel.setBackground(new Color(56, 90, 174));
+//        placeOrderButtonPanel.setBackground(new Color(31, 50, 97));
         
         OrderStatusJPanel orderStatusJPanel = new OrderStatusJPanel(rightSystemAdminPanel, ecosystem, userAccount);
         rightSystemAdminPanel.add("OrderStatusJPanel", orderStatusJPanel);

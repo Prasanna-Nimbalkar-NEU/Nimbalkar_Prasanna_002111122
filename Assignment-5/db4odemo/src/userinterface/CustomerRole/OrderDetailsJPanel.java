@@ -141,6 +141,7 @@ public class OrderDetailsJPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        tblCart.setSelectionBackground(new java.awt.Color(255, 102, 0));
         cartScrollPane.setViewportView(tblCart);
 
         jLabel7.setFont(new java.awt.Font("Futura", 0, 13)); // NOI18N
